@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-4">Hi, I am Issac Ho</h1>
         <h2 className="text-2xl font-semibold mb-4">Welcome to My Introduction Page</h2>
         <p className="leading-7">
-          Explore the links above to learn more about me, my skills, the projects I have worked on, and how to get in touch. 
+          Explore the links above to learn more about me, and how to get in touch. 
         </p>
       </main>
       <Footer /> 

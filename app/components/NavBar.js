@@ -19,14 +19,14 @@ export default function NavBar() {
         About
       </Link>
       <Link 
-        href="/skills" 
+        href="/storyboard" 
         className="px-3 py-2 rounded-md text-gray-900 dark:text-white hover:underline hover:bg-gray-200 dark:hover:bg-gray-600">
-        Skills
+        Storyboard
       </Link>
       <Link 
-        href="/projects" 
+        href="/personalStatement" 
         className="px-3 py-2 rounded-md text-gray-900 dark:text-white hover:underline hover:bg-gray-200 dark:hover:bg-gray-600">
-        Projects
+        Personal Statement
       </Link>
       <Link 
         href="/contact" 
