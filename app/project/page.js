@@ -20,10 +20,13 @@ export default function Storyboard() {
             {/* 1. Project Overview */}
             <section>
               <h1 className="text-3xl font-bold mb-3">
-                Self-Checkout Machine Redesign
+                Redesigning Self-Checkout to Reduce Stress and Improve Confidence
               </h1>
               <p className="leading-7">
-                How can we reduce confusion and frustration when customers use self-checkout machines?
+                Self-checkout machines are meant to save time, yet many shoppers leave feeling confused, rushed, or frustrated.
+
+                How might we redesign self-checkout experiences to feel clearer, calmer, and more supportive—especially in 
+                high-pressure retail environments?
               </p>
             </section>
 
@@ -31,10 +34,9 @@ export default function Storyboard() {
             <section>
               <p className="leading-7">
                 In this project, our team redesigned a self-checkout machine interface using user-centered
-                design principles to improve clarity, efficiency, and accessibility. I contributed through
-                user research, data analysis, ideation, prototyping, and usability testing. The final outcome
-                was a streamlined interface that improved task flow, reduced user uncertainty, and created a
-                more confident self-checkout experience.
+                design principles to improve clarity, efficiency, and accessibility. This is a course project for Dr. Olivier St-Cyr’s 
+                design course, INF352 - How to Design. The semester-long project was aimed at exploring the iterative design 
+                process through practical application.
               </p>
             </section>
 
@@ -55,8 +57,8 @@ export default function Storyboard() {
                 <p><b>Team:</b> Issac Ho, Vincent Li, Kate Yang, Valerie Huang, Zara Hashme</p>
                 <p><b>Platform:</b> Self-checkout machine interface</p>
                 <p><b>Sector:</b> Retail Technology</p>
-                <p><b>Methodologies:</b> Design Thinking, User-Centered Design, Lean Evaluation</p>
-                <p><b>Tools Used:</b> Miro, Google Workspace, Figma</p>
+                <p><b>Methodologies:</b> User Research, Journey Mapping, Prototyping, Lean Evaluation</p>
+                <p><b>Tools Used:</b> Figma, Miro, Google Workspace</p>
                 <p><b>Skills Developed:</b> Interaction Design, Prototyping, Data Analysis</p>
               </div>
             </section>
@@ -81,10 +83,10 @@ export default function Storyboard() {
             <h2 className="text-2xl font-bold mb-3">
                 <u>Problem</u>
             </h2>
+            <h3 className="text-xl font-bold mb-3">Why self-checkout fails users</h3>
             <p className=" leading-7">
-                Many self-checkout machines are difficult to use due to unclear interfaces, inefficient task flows, and a lack of 
-                accessibility, leading to user confusion and uncertainty. This project addresses these issues by identifying usability 
-                barriers through user research and design evaluation to improve the overall self-checkout experience.
+                Self-checkout is meant to be fast, but unclear instructions, sensitive systems, 
+                and constant errors leave users confused and stressed—often requiring staff help.
             </p>
         </section>
 
@@ -93,12 +95,10 @@ export default function Storyboard() {
             <h2 className="text-2xl font-bold mb-3">
                 <u>Solution</u>
             </h2>
+            <h3 className="text-xl font-bold mb-3">How we fixed it</h3>
             <p className=" leading-7">
-                This project proposes a more human-centered self-checkout experience by redesigning the interface to improve clarity, 
-                reduce errors, and lower user stress. Through user research and usability evaluation, the design identifies pain points 
-                in instructions, error handling, and interaction flow, and addresses them with clearer guidance and more supportive 
-                feedback. The resulting solution aims to make self-checkout systems more intuitive, accessible, and welcoming for users 
-                with diverse needs and comfort levels.
+                We redesigned the self-checkout experience around clarity and reassurance, using clear guidance, 
+                consistent interactions, and better error recovery to help users check out confidently and independently.
             </p>
         </section>
 
@@ -107,8 +107,12 @@ export default function Storyboard() {
             <h2 className="text-2xl font-bold mb-3">
                 <u>Secondary Research</u>
             </h2>
-            <p className=" leading-7">
-                
+            <h3 className="text-xl font-bold mb-3">What research already tells us</h3>
+            <p className=" leading-7"> 
+                Research shows that user satisfaction depends more on experience clarity than advanced technology.Common 
+                pain points include sensitive scales, unclear feedback, limited bagging space, and lack of support—reinforcing
+                the need for intuitive, accessible design.
+
             </p>
         </section>
 
@@ -117,12 +121,10 @@ export default function Storyboard() {
             <h2 className="text-2xl font-bold mb-3">
                 <u>Primary Research</u>
             </h2>
+            <h3 className="text-xl font-bold mb-3">What users actually experience</h3>
             <p className=" leading-7">
-                Our primary research used a mixed-methods approach combining surveys, interviews, and field observations to 
-                understand real-world experiences with self-checkout machines. This approach allowed us to capture both quantitative 
-                usage patterns and qualitative insights into users’ emotions, behaviors, and pain points. By triangulating data
-                across methods, we identified recurring usability issues such as scanning errors, bagging confusion, and reliance on 
-                staff assistance, which informed key design opportunities.
+                Through interviews, surveys, and observations, we identified recurring issues with scanning, bagging, and staff dependence.
+                These insights revealed emotional stress points that directly informed our design decisions.
             </p>
         </section>
 
@@ -178,13 +180,12 @@ export default function Storyboard() {
             <h2 className="text-2xl font-bold mb-3">
                 <u>Research Analysis</u>
             </h2>
+            <h3 className="text-xl font-bold mb-3">What patterns emerged</h3>
             <p className="leading-7">
-                This research analysis synthesizes findings from interviews, surveys, and field observations to
-                uncover both behavioral patterns and measurable usability issues in self-checkout machines.
-                Qualitative insights reveal users’ emotions, frustrations, and coping strategies, while
-                quantitative data highlights recurring pain points and efficiency breakdowns across the checkout
-                process.
-                </p>
+                By synthesizing qualitative and quantitative data, we uncovered how stress, uncertainty, and time pressure 
+                disrupt checkout flow. These findings highlighted clear opportunities to improve feedback, layout consistency, 
+                and error recovery.
+            </p>
         </section>
 
         <section className="mt-16">
@@ -256,15 +257,13 @@ export default function Storyboard() {
             <h3 className="text-xl font-semibold mb-3">
                 Key Findings
             </h3>
-            <p className="leading-7">
-                Across interviews, surveys, and observations, issues related to the bagging area emerged as the
-                most significant pain point, including overly sensitive weight sensors, limited space, and
-                workflow interruptions. The need for staff assistance was another major challenge, often
-                creating pressure and frustration when help was slow or difficult to access. Additional
-                findings highlighted problems with scanning accuracy, unclear screen interfaces, and the
-                influence of environmental factors such as noise, crowding, and time pressure on user comfort
-                and efficiency.
-            </p>
+            <h4 className="text-l font-bold mb-3">What mattered most</h4>
+            <ul className="list-disc list-inside text-left space-y-3 mx-auto">
+                <li>Bagging area issues caused the most frustration</li>
+                <li>Staff reliance increased anxiety and slowed checkout</li>
+                <li>Unclear feedback led to hesitation and double-checking</li>
+                <li>Environmental pressure amplified usability breakdowns</li>
+            </ul>
         </section>
 
         {/* User Persona & Empathy Map Section */}
@@ -274,9 +273,9 @@ export default function Storyboard() {
                 {/* LEFT: User Persona */}
                 <div className="flex flex-col gap-4">
                     <h3 className="text-xl font-semibold">User Persona</h3>
+                    <h4 className="text-l font-bold mb-3">Who we designed for</h4>
                     <p className="leading-7">
-                        The user persona represents a key self-checkout user type, capturing their goals, behaviors, and frustrations 
-                        to guide design decisions.
+                        A representative self-checkout user balancing speed, accuracy, and social pressure while shopping independently.
                     </p>
                     <Image
                         src="/img/userPersona.png"
@@ -291,9 +290,9 @@ export default function Storyboard() {
                 {/* RIGHT: Empathy Map */}
                 <div className="flex flex-col gap-4">
                     <h3 className="text-xl font-semibold">Empathy Map</h3>
+                    <h4 className="text-l font-bold mb-3">How users feel</h4>
                     <p className="leading-7">
-                        The empathy map visualizes what users think, feel, say, and do while using self-checkout machines, helping 
-                        uncover emotional pain points and unmet needs.
+                        Users start anxious, feel relief with clear guidance, and become stressed again when space or errors interrupt flow.
                     </p>
                     <Image
                         src="/img/empathyMap.png"
@@ -313,8 +312,9 @@ export default function Storyboard() {
                 <h2 className="text-2xl font-bold mb-3">
                     <u>Needs Statement</u>
                 </h2>
+                <h3 className="text-xl font-bold mb-3">What users need</h3>
                 <p className="leading-7">
-                    Based on our research and analysis, we identified key user needs to guide the redesign of the self-checkout experience:
+                    Users need clear steps, easy recovery from errors, visible help options, and enough space to work confidently at their own pace.
                 </p>
                 <ul className="list-disc list-inside text-left space-y-3 mx-auto">
                     <li>Sally needs a clear understanding of each step in the checkout process so she can complete her shopping confidently without confusion or rush.</li>
@@ -330,14 +330,236 @@ export default function Storyboard() {
                 <h2 className="text-2xl font-bold mb-3">
                     <u>Ideation and Prioritization Grid</u>
                 </h2>
+                <h3 className="text-xl font-bold mb-3">How we chose what to design</h3>
                 <p className="leading-7">
-                    
+                    We generated multiple concepts, then prioritized solutions based on user impact and feasibility.
+                    This ensured we focused on changes that meaningfully reduced confusion and stress.
                 </p>
-
             </section>
 
+            <div className="flex flex-col gap-3 text-center mt-6">
+                <a
+                    href="https://miro.com/app/board/uXjVJgYWgvo=/"
+                    className="text-blue-600 dark:text-blue-400 underline"
+                >
+                    View Prioritization Grid
+                </a>
+            </div>
 
-        
+        {/* To-Be Scenario */}
+        <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mt-10 mb-8" />
+            <section className="max-w-6xl mx-auto text-center">
+                <h2 className="text-2xl font-bold mb-4 text-center">
+                    <u>To-Be Scenario</u>
+                </h2>
+                <h3 className="text-xl font-bold mb-3">What the improved experience looks like</h3>
+                <p className="text-center leading-7 max-w-3xl mx-auto mb-10">
+                    The redesigned journey supports users through approach, scanning, payment, and bagging with clear cues, 
+                    flexible pacing, and reassuring feedback.
+                </p>
+
+                {/* Steps */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+                    {[
+                        { title: "Approach", desc: "User selects self-checkout with confidence" },
+                        { title: "Scan", desc: "Items are scanned quickly and accurately" },
+                        { title: "Pay", desc: "Payment is flexible and stress-free" },
+                        { title: "Bag", desc: "User bags items comfortably at their own pace" },
+                    ].map((step) => (
+                        <div
+                            key={step.title}
+                            className="border rounded-xl p-5 text-center shadow-sm bg-gray-50 dark:bg-gray-800"
+                        >
+                            <h3 className="font-semibold text-lg mb-2">{step.title}</h3>
+                            <p className="text-sm leading-6">{step.desc}</p>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Experience Breakdown */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+                    {/* Doing */}
+                    <div>
+                        <h3 className="text-lg font-semibold mb-3">🎬 Doing</h3>
+                        <ul className="list-disc list-inside space-y-2 text-sm leading-6">
+                            <li>Starts checkout and places basket on counter</li>
+                            <li>Scans items automatically or selects produce easily</li>
+                            <li>Removes items without staff assistance</li>
+                            <li>Selects cash payment and completes transaction</li>
+                            <li>Bags items after payment with clear confirmation</li>
+                        </ul>
+                    </div>
+
+                    {/* Thinking */}
+                    <div>
+                        <h3 className="text-lg font-semibold mb-3">💬 Thinking</h3>
+                        <ul className="list-disc list-inside space-y-2 text-sm leading-6">
+                            <li>This machine feels easy to use</li>
+                            <li>I can always ask for help if needed</li>
+                            <li>The icons and layout are clear</li>
+                            <li>I’m moving at a reasonable pace</li>
+                            <li>I feel confident everything scanned correctly</li>
+                        </ul>
+                    </div>
+
+                    {/* Feeling */}
+                    <div>
+                        <h3 className="text-lg font-semibold mb-3">❤️ Feeling</h3>
+                        <ul className="list-disc list-inside space-y-2 text-sm leading-6">
+                            <li>Slightly anxious at first</li>
+                            <li>Relieved during scanning and payment</li>
+                            <li>Focused while organizing items</li>
+                            <li>Momentarily rushed when others wait</li>
+                            <li>Satisfied and confident when leaving</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mt-10 mb-8" />
+            <section className="max-w-6xl mx-auto text-center">
+                <h2 className="text-2xl font-bold mb-4 text-center">
+                    <u>Prototypes</u>
+                </h2>
+                <h3 className="text-xl font-bold mb-3">How the design evolved</h3>
+                <p className="text-center leading-7 max-w-3xl mx-auto mb-8">
+                    Low-fidelity sketches validated flow and structure.
+                    Medium-fidelity prototypes refined hierarchy, feedback, and interactions based on user evaluation.
+                </p>
+
+                {/* LOW-FIDELITY PROTOTYPE */}
+                <div className="mb-8">
+                    <h3 className="text-xl font-semibold mb-3">Low-Fidelity Prototype</h3>
+                    <p className="text-center leading-7 max-w-3xl mx-auto mb-10">
+                        Early sketches allowed us to quickly test assumptions about task flow before committing to visual detail.
+                    </p>
+
+                    {/* Sequential images */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                        {[
+                            "/img/sketch1.png",
+                            "/img/sketch2.png",
+                            "/img/sketch3.png",
+                            "/img/sketch4.png",
+                            "/img/sketch5.png",
+                            "/img/sketch6.png",
+                            "/img/sketch7.png",
+                         ].map((src, index) => (
+                            <div key={index} className="flex flex-col items-center gap-2">
+                                <Image
+                                    src={src}
+                                    alt={`Low-fidelity screen ${index + 1}`}
+                                    width={260}
+                                    height={200}
+                                    className="rounded-lg border shadow-sm cursor-pointer hover:scale-105 transition"
+                                    onClick={() => setZoomedImage(src)}
+                                />
+                                <span className="text-xs text-gray-500">
+                                    Step {index + 1}
+                                 </span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Lean Evaluation */}
+                <section className="max-w-6xl mx-auto text-center mb-8">
+                    <h3 className="text-xl font-semibold mb-3">Lean Evaluation</h3>
+
+                    <p className="text-center leading-7 max-w-3xl mx-auto mb-10">
+                        Lean evaluation validated the overall checkout flow while revealing gaps in real-world clarity, particularly 
+                        around scanning, weighing, cash insertion, and error recovery. Based on this feedback, the medium-fidelity 
+                        prototype introduced clearer visual signifiers, stronger confirmation feedback, persistent navigation and 
+                        help options, and improved guidance between scanning and produce selection to reduce user anxiety.
+                    </p>
+                </section>
+
+                {/* MID-FIDELITY PROTOTYPE */}
+                <div>
+                    <h3 className="text-xl font-semibold mb-3">Medium-Fidelity Prototype</h3>
+                    <p className="text-center leading-7 max-w-3xl mx-auto mb-10">
+                        Based on evaluation feedback, the medium-fidelity prototype refined layout, hierarchy, 
+                        and signifiers to address moments of hesitation and confusion.
+
+                    </p>
+
+                    {/* Figma Link */}
+                    <div className="mb-8">
+                        <a
+                            href="https://www.figma.com/proto/aTDEtXzwHO074GgOAw1RzE/Self-checkout-Machine?node-id=0-1&t=WzU1oqDMuF3vFeVY-1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block text-blue-600 dark:text-blue-400 underline font-medium"
+                        >
+                        View Medium-Fidelity Prototype in Figma →
+                        </a>
+                    </div>
+
+                    {/* Sequential images */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                        {[
+                            "/img/figma1.png",
+                            "/img/figma2.png",
+                            "/img/figma3.png",
+                            "/img/figma4.png",
+                            "/img/figma5.png",
+                            "/img/figma6.png",
+                            "/img/figma7.png",
+                            "/img/figma8.png",
+                            "/img/figma9.png",
+                        ].map((src, index) => (
+                            <div key={index} className="flex flex-col items-center gap-2">
+                                <Image
+                                    src={src}
+                                    alt={`Medium-fidelity screen ${index + 1}`}
+                                    width={260}
+                                    height={200}
+                                    className="rounded-lg border shadow-sm cursor-pointer hover:scale-105 transition"
+                                    onClick={() => setZoomedImage(src)}
+                                />
+                                <span className="text-xs text-gray-500">
+                                Step {index + 1}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <section className="max-w-6xl mx-auto text-center mb-8">
+                    <h3 className="text-xl font-semibold mb-3">Usability Testing</h3>
+                    <h4 className="text-l font-bold mb-3">What worked—and what didn’t</h4>
+                    <p className="text-center leading-7 max-w-3xl mx-auto mb-10">
+                        Testing confirmed the flow felt intuitive and calming.
+                        Key improvements were identified around labeling, weighing cues, button affordances, and accessibility.
+                    </p>
+            </section>
+
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mt-10 mb-8" />
+            <section className="max-w-6xl mx-auto text-center">
+                <h2 className="text-2xl font-bold mb-3">
+                    <u>Lessons Learned</u>
+                </h2>
+                <h3 className="text-xl font-bold mb-3">What this project taught me</h3>
+                <p className="leading-7">
+                    I learned how to translate user emotions—stress, hesitation, urgency—into concrete interaction design decisions.
+                    I can now confidently design complex physical-digital systems using research-driven iteration.
+                </p>
+            </section>
+
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mt-10 mb-8" />
+            <section className="max-w-6xl mx-auto text-center">
+                <h2 className="text-2xl font-bold mb-3">
+                    <u>Moving Forward</u>
+                </h2>
+                <h3 className="text-xl font-bold mb-3">What comes next</h3>
+                <p className="leading-7">
+                    Future work includes broader accessibility testing, multilingual support, 
+                    and higher-fidelity validation in real retail environments.
+                </p>
+            </section>
+
         {/* ZOOM MODAL */}
         {zoomedImage && (
           <div
@@ -348,7 +570,7 @@ export default function Storyboard() {
              onClick={(e) => e.stopPropagation()} // prevent closing modal when clicking image container
             >
               <button
-                className="absolute top-2 right-2 text-white text-3xl font-bold z-50"
+                className="absolute top-2 right-2 text-black text-3xl font-bold z-50"
                 onClick={() => setZoomedImage(null)}
               >
                 ×
