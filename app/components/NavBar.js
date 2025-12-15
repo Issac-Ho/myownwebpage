@@ -21,12 +21,7 @@ export default function NavBar() {
       <Link 
         href="/storyboard" 
         className="px-3 py-2 rounded-md text-gray-900 dark:text-white hover:underline hover:bg-gray-200 dark:hover:bg-gray-600">
-        Storyboard
-      </Link>
-      <Link 
-        href="/personalStatement" 
-        className="px-3 py-2 rounded-md text-gray-900 dark:text-white hover:underline hover:bg-gray-200 dark:hover:bg-gray-600">
-        Personal Statement
+        My Work
       </Link>
       <Link 
         href="/contact" 
