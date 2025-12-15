@@ -8,7 +8,7 @@ export default function Contact() {
       <main className="p-10 max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-4">Contact</h1>
         <p className="leading-7">GitHub: <a href="https://github.com/Issac-Ho?tab=repositories" className="text-blue-500 hover:underline">Issac Ho</a></p>
-        <p className="leading-7">LinkedIn: <a href="https://www.linkedin.com/in/issac-ho-4094a92b9/" className="text-blue-500 hover:underline">Issac Ho</a></p>
+        <p className="leading-7">LinkedIn: <a href="https://www.linkedin.com/in/issac-ho-6982a9399/" className="text-blue-500 hover:underline">Issac Ho</a></p>
       </main>
       <Footer /> 
     </div>

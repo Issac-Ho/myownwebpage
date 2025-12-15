@@ -1,11 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Footer from "../components/Footer";
 import Image from "next/image";
 
 export default function Storyboard() {
     const [zoomedImage, setZoomedImage] = useState(null);
+    const [showTopButton, setShowTopButton] = useState(false);
+
+    useEffect(() => {
+    const handleScroll = () => setShowTopButton(window.scrollY > 300);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
@@ -592,8 +599,16 @@ export default function Storyboard() {
           </div>
         )}
 
+        {/* Back to Top Button */}
+        <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className={`fixed bottom-8 right-8 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg 
+              hover:bg-blue-700 transition-all duration-500 ease-in-out
+              ${showTopButton ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 translate-y-6 pointer-events-none"}`}
+        >
+            ↑ Back to Top
+        </button>
       </main>
-
       <Footer />
     </div>
   );
